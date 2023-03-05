@@ -38,7 +38,7 @@ function SalesDialog() {
       <Dialog
         header="Header"
         visible={visible}
-        style={{ width: "80vw" }}
+        className="h-[80vh] w-[80vw]"
         onHide={() => setVisible(false)}
         footer={footerContent}
       >
