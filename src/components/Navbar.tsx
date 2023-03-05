@@ -1,5 +1,6 @@
 import Link from "next/link";
 import React from "react";
+import LeftMenu from "./LeftMenu";
 
 function Navbar({ children }) {
   return (
@@ -24,7 +25,7 @@ function Navbar({ children }) {
         </div>
         <div className="flex w-full flex-col">
           <div className="h-[70px] w-full bg-gray-400"></div>
-          <main>{children}</main>
+          <main className="h-full">{children}</main>
         </div>
       </div>
     </>
